@@ -1,0 +1,11 @@
+{
+  "accession_number": 24,
+  "series_number": 501,
+  "spacing_between_slices": 1,
+  "slice_thickness": 2.0,
+  "window_center": 225.5,
+  "window_width": 451,
+  "patient_position": "HFS",
+  "hospital_id": "HOSPITAL_1",
+  "report_exists": true
+}

@@ -6,7 +6,7 @@ import pytest
 from src.filters import WindowFilter, Range
 from src.scans import ScanMetadata
 
-SAMPLE_PATH = Path('../resources/tests/scan_metadata_1.json')
+SAMPLE_PATH = Path('../resources/samples/scan_metadata_1.json')
 
 
 @pytest.fixture
