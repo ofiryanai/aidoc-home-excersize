@@ -1,0 +1,36 @@
+{
+  "accession_number": "00049",
+  "image_orientation_patient": [
+    0.99788,
+    -0.00495467,
+    0.0648889,
+    0.0650777,
+    0.0759734,
+    -0.994984
+  ],
+  "image_position_patient": [
+    -147.57,
+    -53.2266,
+    116.128
+  ],
+  "image_type": [
+    "DERIVED",
+    "SECONDARY"
+  ],
+  "instance_number": 153,
+  "modality": "MR",
+  "patient_id": "00049",
+  "patient_position": "HFS",
+  "reconstruction_diameter": 276.0,
+  "series_description": "FLAIR",
+  "series_instance_uid": "1.2.826.0.1.3680043.8.498.64621139222205087200159083827520865576",
+  "series_number": 5,
+  "slice_location": 43.44515991,
+  "slice_thickness": 1.4,
+  "sop_class_uid": "1.2.840.10008.5.1.4.1.1.4",
+  "sop_instance_uid": "1.2.826.0.1.3680043.8.498.11517657271419689498548994261962689883",
+  "spacing_between_slices": 1.0,
+  "study_instance_uid": "1.2.826.0.1.3680043.8.498.11500727245087400717324069820364755656",
+  "window_center": 467.0,
+  "window_width": 934.0
+}
