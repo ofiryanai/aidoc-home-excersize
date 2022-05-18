@@ -1,36 +1,146 @@
-{
-  "accession_number": "00049",
-  "image_orientation_patient": [
-    0.99788,
-    -0.00495467,
-    0.0648889,
-    0.0650777,
-    0.0759734,
-    -0.994984
-  ],
-  "image_position_patient": [
-    -147.57,
-    -53.2266,
-    116.128
-  ],
-  "image_type": [
-    "DERIVED",
-    "SECONDARY"
-  ],
-  "instance_number": 153,
-  "modality": "MR",
-  "patient_id": "00049",
-  "patient_position": "HFS",
-  "reconstruction_diameter": 276.0,
-  "series_description": "FLAIR",
-  "series_instance_uid": "1.2.826.0.1.3680043.8.498.64621139222205087200159083827520865576",
-  "series_number": 5,
-  "slice_location": 43.44515991,
-  "slice_thickness": 1.4,
-  "sop_class_uid": "1.2.840.10008.5.1.4.1.1.4",
-  "sop_instance_uid": "1.2.826.0.1.3680043.8.498.11517657271419689498548994261962689883",
-  "spacing_between_slices": 1.0,
-  "study_instance_uid": "1.2.826.0.1.3680043.8.498.11500727245087400717324069820364755656",
-  "window_center": 467.0,
-  "window_width": 934.0
-}
+[
+  {
+    "accession_number": "00049",
+    "image_orientation_patient": [
+      0.99788,
+      -0.00495467,
+      0.0648889,
+      0.0650777,
+      0.0759734,
+      -0.994984
+    ],
+    "image_position_patient": [
+      -147.57,
+      -53.2266,
+      116.128
+    ],
+    "image_type": [
+      "DERIVED",
+      "SECONDARY"
+    ],
+    "instance_number": 153,
+    "modality": "MR",
+    "patient_id": "00049",
+    "patient_position": "HFS",
+    "reconstruction_diameter": 276.0,
+    "series_description": "FLAIR",
+    "series_instance_uid": "1.2.826.0.1.3680043.8.498.64621139222205087200159083827520865576",
+    "series_number": 5,
+    "slice_location": 43.44515991,
+    "slice_thickness": 1.4,
+    "sop_class_uid": "1.2.840.10008.5.1.4.1.1.4",
+    "sop_instance_uid": "1.2.826.0.1.3680043.8.498.11517657271419689498548994261962689883",
+    "spacing_between_slices": 1.0,
+    "study_instance_uid": "1.2.826.0.1.3680043.8.498.11500727245087400717324069820364755656",
+    "window_center": 467.0,
+    "window_width": 934.0
+  },
+  {
+    "accession_number": "00049",
+    "image_orientation_patient": [
+      0.99788,
+      -0.00495468,
+      0.0648888,
+      0.0650777,
+      0.0759735,
+      -0.994984
+    ],
+    "image_position_patient": [
+      -147.57,
+      -76.2595,
+      114.369
+    ],
+    "image_type": [
+      "DERIVED",
+      "SECONDARY"
+    ],
+    "instance_number": 186,
+    "modality": "MR",
+    "patient_id": "00049",
+    "patient_position": "HFS",
+    "reconstruction_diameter": 276.0,
+    "series_description": "FLAIR",
+    "series_instance_uid": "1.2.826.0.1.3680043.8.498.64621139222205087200159083827520865576",
+    "series_number": 5,
+    "slice_location": 66.47808838,
+    "slice_thickness": 1.4,
+    "sop_class_uid": "1.2.840.10008.5.1.4.1.1.4",
+    "sop_instance_uid": "1.2.826.0.1.3680043.8.498.61227112789744389595980892376775089332",
+    "spacing_between_slices": 1.0,
+    "study_instance_uid": "1.2.826.0.1.3680043.8.498.11500727245087400717324069820364755656",
+    "window_center": 407.0,
+    "window_width": 814.0
+  },
+  {
+    "accession_number": "00049",
+    "image_orientation_patient": [
+      0.99788,
+      -0.00495468,
+      0.0648888,
+      0.0650777,
+      0.0759735,
+      -0.994984
+    ],
+    "image_position_patient": [
+      -147.57,
+      -76.9575,
+      114.316
+    ],
+    "image_type": [
+      "DERIVED",
+      "SECONDARY"
+    ],
+    "instance_number": 187,
+    "modality": "MR",
+    "patient_id": "00049",
+    "patient_position": "HFS",
+    "reconstruction_diameter": 276.0,
+    "series_description": "FLAIR",
+    "series_instance_uid": "1.2.826.0.1.3680043.8.498.64621139222205087200159083827520865576",
+    "series_number": 5,
+    "slice_location": 67.17605591,
+    "slice_thickness": 1.4,
+    "sop_class_uid": "1.2.840.10008.5.1.4.1.1.4",
+    "sop_instance_uid": "1.2.826.0.1.3680043.8.498.70902314476273030642575111082486554910",
+    "spacing_between_slices": 1.0,
+    "study_instance_uid": "1.2.826.0.1.3680043.8.498.11500727245087400717324069820364755656",
+    "window_center": 400.0,
+    "window_width": 800.0
+  },
+  {
+    "accession_number": "00049",
+    "image_orientation_patient": [
+      -0.00292581,
+      0.992962,
+      0.118401,
+      0.0245295,
+      0.118437,
+      -0.992659
+    ],
+    "image_position_patient": [
+      -14.9032,
+      -192.909,
+      99.0219
+    ],
+    "image_type": [
+      "DERIVED",
+      "SECONDARY"
+    ],
+    "instance_number": 147,
+    "modality": "MR",
+    "patient_id": "00049",
+    "patient_position": "HFS",
+    "reconstruction_diameter": 280.0,
+    "series_description": "T2w",
+    "series_instance_uid": "1.2.826.0.1.3680043.8.498.12101983371117385311694625290589978512",
+    "series_number": 7,
+    "slice_location": 11.88455009,
+    "slice_thickness": 1.4,
+    "sop_class_uid": "1.2.840.10008.5.1.4.1.1.4",
+    "sop_instance_uid": "1.2.826.0.1.3680043.8.498.11355594342373600994313540419130218783",
+    "spacing_between_slices": 1.0,
+    "study_instance_uid": "1.2.826.0.1.3680043.8.498.11500727245087400717324069820364755656",
+    "window_center": 659.0,
+    "window_width": 1319.0
+  }
+]

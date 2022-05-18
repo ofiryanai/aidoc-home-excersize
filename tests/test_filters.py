@@ -4,7 +4,7 @@ from pathlib import Path
 import pytest
 
 from src.filters import WindowFilter, Range
-from src.scans import ScanMetadata
+from src.data import ScanMetadata
 
 SAMPLE_PATH = Path('../resources/samples/scan_metadata_1.json')
 

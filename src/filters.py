@@ -1,7 +1,7 @@
 from abc import abstractmethod
 from dataclasses import dataclass
 
-from src.scans import ScanMetadata
+from src.data import ScanMetadata
 
 
 class ScanFilter:
