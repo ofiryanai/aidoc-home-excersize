@@ -1,13 +1,16 @@
 import json
+import sys
 from collections import defaultdict, Counter
 
-from src.data import ScanMetadata
-from src.download import download_scans_metadata_from_s3
+from src.data import ScanMetadata, ScanTriggerResult
+from src.download import Downloader
 from src.filters import WindowFilter
+from src.trigger import TriggerService
 
 
 def cache_scans_locally():
-    scans = download_scans_metadata_from_s3()
+    downloader = Downloader()
+    scans = downloader.download_scans_metadata_from_s3()
 
     with open('../resources/all_scans.json', 'w') as f:
         f.write(json.dumps([scan.to_dict() for scan in scans]))
@@ -45,7 +48,19 @@ def count_stuff(scans):
     print(json.dumps(series_valid_percentages, indent=2))
 
 
-if __name__ == '__main__':
-    all_scans = load_scans_cache()
-    count_stuff(all_scans)
+def trigger_download(api_key: str) -> ScanTriggerResult:
+    trigger_service = TriggerService(api_key)
+    sample_series_instance_uid = '1.2.826.0.1.3680043.8.498.11540831761866417818266033083895177709'
+    result = trigger_service.trigger_download(sample_series_instance_uid)
+    return result
 
+
+if __name__ == '__main__':
+    # cache_scans_locally()
+
+    # all_scans = load_scans_cache()
+    # count_stuff(all_scans)
+
+    api_key = sys.argv[1]
+    trigger_result = trigger_download(api_key)
+    print(trigger_result)
