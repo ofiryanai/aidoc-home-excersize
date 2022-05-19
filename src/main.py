@@ -60,3 +60,25 @@ if __name__ == '__main__':
     trigger_service_api_key = sys.argv[1]
 
     main(trigger_service_api_key)
+
+
+# Main Console Output:
+#
+# s3://aidoc-data-eng-interviews/scans-metadata/part-00000-e76cdd0a-0aef-4be9-84c4-ee069bab5bde-c000.json
+# 9471
+# s3://aidoc-data-eng-interviews/scans-metadata/part-00001-e76cdd0a-0aef-4be9-84c4-ee069bab5bde-c000.json
+# 19136
+# s3://aidoc-data-eng-interviews/scans-metadata/part-00002-e76cdd0a-0aef-4be9-84c4-ee069bab5bde-c000.json
+# 29100
+# s3://aidoc-data-eng-interviews/scans-metadata/part-00003-e76cdd0a-0aef-4be9-84c4-ee069bab5bde-c000.json
+# 39160
+# s3://aidoc-data-eng-interviews/scans-metadata/part-00004-e76cdd0a-0aef-4be9-84c4-ee069bab5bde-c000.json
+# 49067
+# Finished Downloading (49067 scans)
+# Finished filtering good windows (673 valid scans)
+# Finished triggering, 130 successful triggers
+# Finished training, 130 successful triggers
+# Mission Completed.
+#
+# Process finished with exit code 0
+
