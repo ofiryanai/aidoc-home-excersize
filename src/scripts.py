@@ -5,6 +5,7 @@ from collections import defaultdict, Counter
 from src.data import ScanMetadata, ScanTriggerResult
 from src.download import Downloader
 from src.filters import WindowFilter
+from src.train import TrainSender
 from src.trigger import TriggerService
 
 
@@ -55,12 +56,23 @@ def trigger_download(api_key: str) -> ScanTriggerResult:
     return result
 
 
+def send_to_train():
+    train_sender = TrainSender()
+    trigger_result = ScanTriggerResult(accession_number=24, series_number=501, spacing_between_slices=1,
+                                       slice_thickness=2.0, window_center=225.5, window_width=451,
+                                       patient_position='HFS', hospital_id='HOSPITAL_1', report_exists=True)
+    resp = train_sender.send_scan_to_train_queue(trigger_result)
+    return resp
+
+
 if __name__ == '__main__':
     # cache_scans_locally()
 
     # all_scans = load_scans_cache()
     # count_stuff(all_scans)
 
-    api_key = sys.argv[1]
-    trigger_result = trigger_download(api_key)
-    print(trigger_result)
+    # api_key = sys.argv[1]
+    # trigger_result = trigger_download(api_key)
+    # print(trigger_result)
+
+    print(send_to_train())
