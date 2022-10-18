@@ -6,6 +6,37 @@ from src.train import TrainSender
 from src.trigger import TriggerService
 
 
+"""
+# CR
+
+## High
+- *Logic Failure*: sent 673 triggers for only 130 scans, 533 redundant triggers.
+- Preparation: didn't investigate input data enough to identify correct scan_id.
+- Tests didn't run 
+
+## Medium
+- Wrap main with Executor object?
+- Exception handling:
+    - In main.py?
+    - In downloader while interacting with S3 external service.
+- Logging instead of prints.
+- Config file instead of constants.
+- Misplaced scripts.py, shouldn't be part of src/. Turn into tests?
+- Train logic spread across TrainSender and main.py.
+
+## Low
+- Typo in repo name
+
+
+# Design Interview
+
+- Come better prepared about a project
+- Explain more clearly and sharply. Less back and forth.
+- Emphasize your central part in the design and execution of the project.
+- Not good enough solutions for extended problems.
+"""
+
+
 def download_scans_metadata():
     scans_downloader = Downloader()
     scans_metadata = scans_downloader.download_scans_metadata_from_s3()
